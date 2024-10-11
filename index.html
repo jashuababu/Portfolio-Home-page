@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Babu Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Babu Daniel</h1>
+            <ul>
+                <li><a href="a">Home</a></li>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Project</a></li>
+                <li><a href="a">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="s-container">
+            <div class="content">
+                <span class="subtitle">
+                    Hello
+                </span>
+                <h1 class="title">
+                    I'm <span>Babu <br></span> a Devops enigner and UI/UX Designer and web developer
+                </h1>
+                <p class="description">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione provident asperiores ducimus culpa explicabo neque amet nemo, dolores, ipsa ea reprehenderit doloribus accusantium odit, 
+                   voluptates repellendus debitis dignissimos quos!
+                </p>
+                <div class="buttons">
+                    <a href="dsbjashua">Hair Me</a>
+                    <button>Portfolio</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="babu.jpg" alt="">
+            </div>
+        </div>  
+    </section>
+    
+</body>
+ <script>
+    const btn= document.getElementById("btn")
+    btn.addEventListener("click", () => {
+        document.querySelector("header ul").classList.toggle("show")
+    })
+ </script>
+</html>
