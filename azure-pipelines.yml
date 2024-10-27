@@ -6,7 +6,7 @@
 trigger:
 - master
 stages:
-  -  stage: 'Buildapplicationj'
+  -  stage: 'Buildapplication'
      displayName: 'buildapplication'
      jobs:
        - job: 
