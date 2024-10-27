@@ -16,7 +16,7 @@ stages:
          steps:
               - task: CopyFiles@1
                 inputs:
-                  SourceFolder: 'jashuababu/Portfolio-Home-page/script.js'
+                  SourceFolder: 'jashuababu/Portfolio-Home-page'
                   Contents: '**'
                   TargetFolder: '$(Build.artifactstagingdirectory)'
               - task: PublishBuildArtifacts@1
